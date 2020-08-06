@@ -58,10 +58,13 @@ table {
           box-sizing: border-box;
 }
 
+html {
+  background-color: #f7f7f7;
+}
 
 nav {
   height: 60px;
-  background-color: #ddd;
+  background-color: #fff;
 }
 
 .center_nav {
@@ -83,4 +86,79 @@ nav {
 .logo,
 .nav_links a {
   padding: 0 1em;
+}
+
+.main_container {
+  width: 70%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_aside,
+.right_aside {
+  width: 24%;
+}
+
+main {
+  width: 50%;
+}
+
+.blogger_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.location img {
+  height: 1em;
+  /* vertical-align: middle; */
+}
+
+.base_info {
+  text-align: center;
+  line-height: 1.5em;
+  margin-bottom: 21px;
+}
+
+.about_me {
+  margin-bottom: 21px;
+  width: 100%;
+  padding: 0.5em 0;
+  border-radius: 1em;
+  text-align: center;
+  background-color: #3273dc;
+}
+
+.personal_links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.all_blogs {
+  max-height: 500px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.all_blogs a {
+  display: block;
+  padding: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.all_blogs ul ul {
+  margin-left: 10px;
+  border-left: 1px solid #dbdbdb;
 }

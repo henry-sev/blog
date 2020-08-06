@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="./styles/index.css" />
+    <script src="https://kit.fontawesome.com/25ed0abb3f.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -19,100 +20,105 @@
         </div>
       </nav>
     </header>
-    <aside>
-      <div class="blogger_card">
-        <div>
-          <img src="images/profile_photo.jpg" class="profile_photo" alt="profile photo" />
-          <p>henry-sev</p>
-          <p>前端开发</p>
-          <p><img src="images/location.png" alt="location icon" />中国江苏</p>
-        </div>
-        <div>
-          <a href="#">了解我</a>
-        </div>
-        <div>
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-        </div>
-      </div>
-      <div>
-        <h2>所有博客</h2>
-        <div>
-          <p>精准定位总结<span class="page_number">4</span></p>
-          <p>布局<span class="page_number">12</span></p>
-          <div>
-            <q>三栏布局<span class="page_number">2</span></q>
-            <q>Flex布局<span class="page_number">2</span></q>
-            <q>Grid布局<span class="page_number">2</span></q>
+    <div class="main_container">
+      <aside class="left_aside">
+        <div class="blogger_card">
+          <figure class="base_info">
+            <div class="avatar">
+              <img src="images/avatar.png" alt="avatar" /> 
+            </div>
+            <p class="name">henry-sev</p>
+            <p class="occupation">前端开发</p>
+            <p class="location"><img src="images/location.png" alt="location icon" />中国江苏</p>
+          </figure>
+          <div class="about_me">
+            <a href="#">了解我</a>
           </div>
-          <p>JavaScript<span class="page_number">2</span></p>
-        </div>
-      </div>
-    </aside>
-    <main>
-      <section>
-        <div class="head_img">
-          <a href="#"></a>
-        </div>
-        <div>
-          <span>2 MONTHS AGO</span>
-          <span>3 MINUTES READ(ABOUT 420 WORDS)</span>
-        </div>
-        <h1><a href="#">Getting Started with Icarus</a></h1>
-        <p></p>
-        <p><a href="#">Read More</a></p>
-      </section>
-      <section>
-        <div class="head_img">
-          <a href="#"></a>
-        </div>
-        <div>
-          <span>2 MONTHS AGO</span>
-          <span>3 MINUTES READ(ABOUT 420 WORDS)</span>
-        </div>
-        <h1><a href="#">Getting Started with Icarus</a></h1>
-        <p></p>
-        <p><a href="#">Read More</a></p>
-      </section>
-    </main>
-    <aside>
-      <section>
-        <h2>最近更新</h2>
-        <div>
-          <div><a href="#"></a></div>
-          <div>
-            <p>2020-04-01</p>
-            <p><a href="#">Getting Started with Icarus</a></p>
+          <div class="personal_links">
+            <a href="#"><i class="fab fa-github-square"></i></a>
+            <a href="#"><i class="fab fa-github-square"></i></a>
+            <a href="#"><i class="fab fa-github-square"></i></a>
+            <a href="#"><i class="fab fa-github-square"></i></a>
           </div>
         </div>
-        <div>
-          <div><a href="#"></a></div>
-          <div>
-            <p>2020-04-01</p>
-            <p><a href="#">Getting Started with Icarus</a></p>
-          </div>
+        <div class="all_blogs">
+          <h2>所有博客</h2>
+          <ul>
+            <li><a href="#"><span>精准定位总结</span><span>4</span></a></li>
+            <li>
+              <a href="#"><span>布局</span><span>12</span></a>
+              <ul>
+                <li><a href="#"><span>三栏布局</span><span>2</span></a></li>
+                <li><a href="#"><span>Flex布局</span><span>2</span></a></li>
+                <li><a href="#"><span>Grid布局</span><span>2</span></a></li>
+              </ul>
+            </li>
+            <li><a href="#"><span>JavaScript语法总结</span><span>2</span></a></li>
         </div>
-        <div>
-          <div><a href="#"></a></div>
-          <div>
-            <p>2020-04-01</p>
-            <p><a href="#">Getting Started with Icarus</a></p>
+      </aside>
+      <main>
+        <section>
+          <div class="head_img">
+            <a href="#"></a>
           </div>
-        </div>
-      </section>
-      <section>
-        <h2>档案馆</h2>
-        <p><a href="#">April 2020<span>1</span></a></p>
-        <p><a href="#">April 2020<span>1</span></a></p>
-        <p><a href="#">April 2020<span>1</span></a></p>
-        <p><a href="#">April 2020<span>1</span></a></p>
-        <p><a href="#">April 2020<span>1</span></a></p>
-        <p><a href="#">April 2020<span>1</span></a></p>
-        <p><a href="#">April 2020<span>1</span></a></p>
-        <p><a href="#">April 2020<span>1</span></a></p>
-      </section>
-    </aside>
+          <div>
+            <span>2 MONTHS AGO</span>
+            <span>3 MINUTES READ(ABOUT 420 WORDS)</span>
+          </div>
+          <h1><a href="#">Getting Started with Icarus</a></h1>
+          <p></p>
+          <p><a href="#">Read More</a></p>
+        </section>
+        <section>
+          <div class="head_img">
+            <a href="#"></a>
+          </div>
+          <div>
+            <span>2 MONTHS AGO</span>
+            <span>3 MINUTES READ(ABOUT 420 WORDS)</span>
+          </div>
+          <h1><a href="#">Getting Started with Icarus</a></h1>
+          <p></p>
+          <p><a href="#">Read More</a></p>
+        </section>
+      </main>
+      <aside class="right_aside">
+        <section>
+          <h2>最近更新</h2>
+          <div>
+            <div><a href="#"></a></div>
+            <div>
+              <p>2020-04-01</p>
+              <p><a href="#">Getting Started with Icarus</a></p>
+            </div>
+          </div>
+          <div>
+            <div><a href="#"></a></div>
+            <div>
+              <p>2020-04-01</p>
+              <p><a href="#">Getting Started with Icarus</a></p>
+            </div>
+          </div>
+          <div>
+            <div><a href="#"></a></div>
+            <div>
+              <p>2020-04-01</p>
+              <p><a href="#">Getting Started with Icarus</a></p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>档案馆</h2>
+          <p><a href="#">April 2020<span>1</span></a></p>
+          <p><a href="#">April 2020<span>1</span></a></p>
+          <p><a href="#">April 2020<span>1</span></a></p>
+          <p><a href="#">April 2020<span>1</span></a></p>
+          <p><a href="#">April 2020<span>1</span></a></p>
+          <p><a href="#">April 2020<span>1</span></a></p>
+          <p><a href="#">April 2020<span>1</span></a></p>
+          <p><a href="#">April 2020<span>1</span></a></p>
+        </section>
+      </aside>
+    </div>
   </body>
 </html>
